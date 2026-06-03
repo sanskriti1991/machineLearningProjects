@@ -1,0 +1,43 @@
+{
+  "prediction_rates": {
+    " Amer-Indian-Eskimo- Female": 0.0,
+    " Amer-Indian-Eskimo- Male": 0.102,
+    " Asian-Pac-Islander- Female": 0.061,
+    " Asian-Pac-Islander- Male": 0.32,
+    " Black- Female": 0.041,
+    " Black- Male": 0.131,
+    " Other- Female": 0.03,
+    " Other- Male": 0.081,
+    " White- Female": 0.09,
+    " White- Male": 0.266
+  },
+  "false_positive_rates": {
+    " Amer-Indian-Eskimo- Female": 0.0,
+    " Amer-Indian-Eskimo- Male": 0.034,
+    " Asian-Pac-Islander- Female": 0.0,
+    " Asian-Pac-Islander- Male": 0.091,
+    " Black- Female": 0.01,
+    " Black- Male": 0.012,
+    " Other- Female": 0.0,
+    " Other- Male": 0.0,
+    " White- Female": 0.018,
+    " White- Male": 0.06
+  },
+  "false_negative_rates": {
+    " Amer-Indian-Eskimo- Female": 0.022,
+    " Amer-Indian-Eskimo- Male": 0.068,
+    " Asian-Pac-Islander- Female": 0.061,
+    " Asian-Pac-Islander- Male": 0.131,
+    " Black- Female": 0.044,
+    " Black- Male": 0.074,
+    " Other- Female": 0.061,
+    " Other- Male": 0.054,
+    " White- Female": 0.048,
+    " White- Male": 0.111
+  },
+  "threshold_context": {
+    "overall_percentile": 76,
+    "black_americans_percentile": 88,
+    "women_percentile": 89
+  }
+}

@@ -1,0 +1,2602 @@
+[
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0958904109589041,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.076,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0,
+      "education_num": 0.4,
+      "hours_per_week": 0.11224489795918367
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0684931506849315,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.32653061224489793
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.8,
+      "hours_per_week": 0.3571428571428571
+    },
+    "prediction": "likely donor",
+    "confidence": 0.587,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1917808219178082,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.073,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.2191780821917808,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.01,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.48979591836734687
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.176,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1232876712328767,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.016,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.46575342465753417,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.255,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0684931506849315,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.05,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0958904109589041,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.007,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.4794520547945205,
+      "education_num": 0.4,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1095890410958904,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.301,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2602739726027397,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.122,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2328767123287671,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.299,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.0958904109589041,
+      "education_num": 0.6,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.01,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Female",
+      "age": 0.1095890410958904,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.009,
+    "demographic_group": "Asian-Pac-Islander-Female",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3698630136986301,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.7040816326530611
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.077,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1232876712328767,
+      "education_num": 0.8,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.05,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3424657534246575,
+      "education_num": 0.2,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.08,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Male",
+      "age": 0.3835616438356165,
+      "education_num": 0.8,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "likely donor",
+    "confidence": 0.746,
+    "demographic_group": "Asian-Pac-Islander-Male",
+    "fairness_note": "This group had the highest prediction rate at 32% but also the highest false positive rate at 9%."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.116,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.7397260273972601,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.19387755102040813
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.028,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.573,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4383561643835617,
+      "education_num": 0.6,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.028,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.1780821917808219,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.2959183673469387
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.047,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.356,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5890410958904109,
+      "education_num": 0.2,
+      "hours_per_week": 0.47959183673469385
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.05,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2054794520547945,
+      "education_num": 0.33333333333333337,
+      "hours_per_week": 0.8061224489795917
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.143,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.023,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.513,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0547945205479452,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1917808219178082,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.073,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3835616438356165,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.149,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "likely donor",
+    "confidence": 0.766,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1506849315068493,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.015,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.8,
+      "hours_per_week": 0.4183673469387755
+    },
+    "prediction": "likely donor",
+    "confidence": 0.664,
+    "demographic_group": "Asian-Pac-Islander-Male",
+    "fairness_note": "This group had the highest prediction rate at 32% but also the highest false positive rate at 9%."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4794520547945205,
+      "education_num": 0.4,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.168,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1232876712328767,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0821917808219178,
+      "education_num": 0.6,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.099,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4520547945205479,
+      "education_num": 0.6,
+      "hours_per_week": 0.38775510204081626
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.037,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1232876712328767,
+      "education_num": 0.8,
+      "hours_per_week": 0.19387755102040813
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.343,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.511,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.717,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 1.0,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "likely donor",
+    "confidence": 0.826,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0,
+      "education_num": 0.33333333333333337,
+      "hours_per_week": 0.11224489795918367
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Other",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.133,
+    "demographic_group": "Other-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.3972602739726027,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.36734693877551017
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.027,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1780821917808219,
+      "education_num": 0.8,
+      "hours_per_week": 0.8061224489795917
+    },
+    "prediction": "likely donor",
+    "confidence": 0.542,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.1643835616438356,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.04,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3150684931506849,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.539,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.5205479452054793,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.03,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4246575342465753,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.337,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5342465753424657,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.515,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.6,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.111,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2328767123287671,
+      "education_num": 0.6,
+      "hours_per_week": 0.47959183673469385
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.361,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.71,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0547945205479452,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.006,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0958904109589041,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.034,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0410958904109589,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.006,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.7671232876712328,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.108,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1506849315068493,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.326,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.1780821917808219,
+      "education_num": 0.6,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.049,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2602739726027397,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.5510204081632653
+    },
+    "prediction": "likely donor",
+    "confidence": 0.984,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0273972602739726,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.005,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.5753424657534245,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.251,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2602739726027397,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.321,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4246575342465753,
+      "education_num": 1.0,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.831,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.022,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1643835616438356,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.604,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3698630136986301,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.562,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2054794520547945,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.388,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.588,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4794520547945205,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.809,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Other",
+      "gender": "Female",
+      "age": 0.0273972602739726,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.002,
+    "demographic_group": "Other-Female",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3150684931506849,
+      "education_num": 0.4666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.306,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.41095890410958896,
+      "education_num": 0.6,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "likely donor",
+    "confidence": 0.979,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.35616438356164376,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.043,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0136986301369863,
+      "education_num": 0.4,
+      "hours_per_week": 0.1530612244897959
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4383561643835617,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.34,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Other",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 1.0,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.506,
+    "demographic_group": "Other-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.359,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0136986301369863,
+      "education_num": 0.4,
+      "hours_per_week": 0.2959183673469387
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1917808219178082,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.67,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0410958904109589,
+      "education_num": 0.33333333333333337,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.714,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.547945205479452,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.33,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1643835616438356,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.058,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 0.6,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.976,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4383561643835617,
+      "education_num": 0.6,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.35,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.442,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.3972602739726027,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.065,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2191780821917808,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.191,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4383561643835617,
+      "education_num": 0.8,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "likely donor",
+    "confidence": 0.852,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0547945205479452,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.006,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1232876712328767,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3835616438356165,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.432,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4520547945205479,
+      "education_num": 0.4,
+      "hours_per_week": 0.7040816326530611
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.211,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.3972602739726027,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.42857142857142855
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.21,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0821917808219178,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.3150684931506849,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.31632653061224486
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.019,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2054794520547945,
+      "education_num": 0.6,
+      "hours_per_week": 0.846938775510204
+    },
+    "prediction": "likely donor",
+    "confidence": 0.536,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.547945205479452,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.301,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4383561643835617,
+      "education_num": 0.8,
+      "hours_per_week": 0.020408163265306124
+    },
+    "prediction": "likely donor",
+    "confidence": 0.952,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.815,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.6301369863013697,
+      "education_num": 0.9333333333333333,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "likely donor",
+    "confidence": 0.977,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.3972602739726027,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.085,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0821917808219178,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.2959183673469387
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2054794520547945,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.13,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.08163265306122448
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.002,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.1780821917808219,
+      "education_num": 0.6,
+      "hours_per_week": 0.7244897959183673
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.027,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0136986301369863,
+      "education_num": 0.4,
+      "hours_per_week": 0.19387755102040813
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3698630136986301,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.989,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5753424657534245,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.38,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5510204081632653
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.114,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.41095890410958896,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.712,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.41095890410958896,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.99,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4794520547945205,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.038,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.6164383561643836,
+      "education_num": 0.2,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0958904109589041,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.067,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0821917808219178,
+      "education_num": 0.6,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.141,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.55,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1780821917808219,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.044,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.6712328767123288,
+      "education_num": 0.9333333333333333,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.449,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.6164383561643836,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.414,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5342465753424657,
+      "education_num": 0.2,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.123,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1780821917808219,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.021,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3698630136986301,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.783,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Female",
+      "age": 0.2602739726027397,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.021,
+    "demographic_group": "Asian-Pac-Islander-Female",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2602739726027397,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.342,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3150684931506849,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.3,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1095890410958904,
+      "education_num": 0.8,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.015,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3698630136986301,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.044,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1780821917808219,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.202,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0410958904109589,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.013,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.32876712328767127,
+      "education_num": 0.8,
+      "hours_per_week": 0.09183673469387754
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.038,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2191780821917808,
+      "education_num": 0.8,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.595,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.4246575342465753,
+      "education_num": 0.4,
+      "hours_per_week": 0.5612244897959183
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.174,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.41095890410958896,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.188,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.1232876712328767,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.007,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.2191780821917808,
+      "education_num": 0.6,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.007,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.364,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5342465753424657,
+      "education_num": 0.4666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.132,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.3698630136986301,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.062,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2876712328767123,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.08,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.6438356164383561,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.37755102040816324
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.018,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5616438356164384,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.448,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.6164383561643836,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.073,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2602739726027397,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.244,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Male",
+      "age": 0.30136986301369856,
+      "education_num": 0.8,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.142,
+    "demographic_group": "Asian-Pac-Islander-Male",
+    "fairness_note": "This group had the highest prediction rate at 32% but also the highest false positive rate at 9%."
+  },
+  {
+    "inputs": {
+      "race": "Amer-Indian-Eskimo",
+      "gender": "Male",
+      "age": 0.35616438356164376,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.447,
+    "demographic_group": "Amer-Indian-Eskimo-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.2465753424657534,
+      "education_num": 0.2,
+      "hours_per_week": 0.8061224489795917
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.021,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.27397260273972607,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.018,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3424657534246575,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.6530612244897959
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.326,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2054794520547945,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.161,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5753424657534245,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.396,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.5890410958904109,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.24489795918367346
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.231,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.41095890410958896,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.8061224489795917
+    },
+    "prediction": "likely donor",
+    "confidence": 0.619,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.0410958904109589,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2465753424657534,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.276,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1917808219178082,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.098,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0136986301369863,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Other",
+      "gender": "Female",
+      "age": 0.1095890410958904,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.009,
+    "demographic_group": "Other-Female",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0,
+      "education_num": 0.2,
+      "hours_per_week": 0.07142857142857142
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.35616438356164376,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.721,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1506849315068493,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.092,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0410958904109589,
+      "education_num": 0.6,
+      "hours_per_week": 0.173469387755102
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.006,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.0547945205479452,
+      "education_num": 0.6,
+      "hours_per_week": 0.07142857142857142
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.002,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5890410958904109,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.075,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Asian-Pac-Islander",
+      "gender": "Female",
+      "age": 0.27397260273972607,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.7040816326530611
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.072,
+    "demographic_group": "Asian-Pac-Islander-Female",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.7333333333333334,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.053,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Male",
+      "age": 0.547945205479452,
+      "education_num": 0.4666666666666667,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.979,
+    "demographic_group": "Black-Male",
+    "fairness_note": "Black men were predicted at 13%, well below White and Asian-Pac-Islander males."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3424657534246575,
+      "education_num": 0.8,
+      "hours_per_week": 0.44897959183673464
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.343,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.46575342465753417,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.121,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.2602739726027397,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.083,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0273972602739726,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.1643835616438356,
+      "education_num": 0.33333333333333337,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.011,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.0821917808219178,
+      "education_num": 0.6,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.049,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.35616438356164376,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.776,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.5616438356164384,
+      "education_num": 0.8666666666666667,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.344,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.2465753424657534,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.47959183673469385
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.348,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4794520547945205,
+      "education_num": 0.6666666666666666,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.043,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0547945205479452,
+      "education_num": 0.6,
+      "hours_per_week": 0.346938775510204
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.004,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.6301369863013697,
+      "education_num": 1.0,
+      "hours_per_week": 0.5
+    },
+    "prediction": "likely donor",
+    "confidence": 0.983,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "Black",
+      "gender": "Female",
+      "age": 0.0410958904109589,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.19387755102040813
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.003,
+    "demographic_group": "Black-Female",
+    "fairness_note": "Black women were predicted as donors at only 4%, one of the lowest rates of any group."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.2876712328767123,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.21428571428571425
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.312,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.6,
+      "hours_per_week": 0.8061224489795917
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.113,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4246575342465753,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "likely donor",
+    "confidence": 0.783,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.2054794520547945,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.015,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.32876712328767127,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.037,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.4931506849315069,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.37755102040816324
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.057,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3424657534246575,
+      "education_num": 0.8,
+      "hours_per_week": 0.31632653061224486
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.085,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.0684931506849315,
+      "education_num": 0.8,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.012,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.4794520547945205,
+      "education_num": 0.33333333333333337,
+      "hours_per_week": 0.6020408163265305
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.267,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.2191780821917808,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.5
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.161,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.136986301369863,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.029,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Female",
+      "age": 0.2602739726027397,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.03,
+    "demographic_group": "White-Female",
+    "fairness_note": "White women were predicted as donors at 9% vs 26% for White men, reflecting 1994 wage inequality."
+  },
+  {
+    "inputs": {
+      "race": "White",
+      "gender": "Male",
+      "age": 0.3424657534246575,
+      "education_num": 0.5333333333333333,
+      "hours_per_week": 0.39795918367346933
+    },
+    "prediction": "unlikely donor",
+    "confidence": 0.256,
+    "demographic_group": "White-Male",
+    "fairness_note": ""
+  }
+]
