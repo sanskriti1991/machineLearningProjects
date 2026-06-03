@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Project Revival</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f5f5f5;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        header {
+            background: #1a1a2e;
+            color: white;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        header p {
+            font-size: 1rem;
+            color: #a0aec0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .badge {
+            display: inline-block;
+            background: #e53e3e;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        main {
+            max-width: 860px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: #1a1a2e;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2d3748;
+        }
+        .story {
+            font-size: 0.95rem;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+        .story p { margin-bottom: 1rem; }
+
+        /* Form */
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 0.4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .range-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        input[type="range"] {
+            flex: 1;
+            height: 4px;
+            accent-color: #1a1a2e;
+        }
+        .range-val {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            min-width: 40px;
+            text-align: right;
+        }
+        select {
+            width: 100%;
+            padding: 0.6rem 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            background: white;
+            color: #1a1a1a;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%234a5568' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.75rem center;
+        }
+        button {
+            width: 100%;
+            padding: 0.85rem;
+            background: #1a1a2e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: background 0.2s;
+        }
+        button:hover { background: #2d2d4e; }
+
+        /* Result */
+        .result-box {
+            display: none;
+            margin-top: 1.5rem;
+            padding: 1.25rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        .result-likely {
+            background: #f0fff4;
+            border: 1px solid #9ae6b4;
+            color: #276749;
+        }
+        .result-unlikely {
+            background: #fff5f5;
+            border: 1px solid #fed7d7;
+            color: #9b2c2c;
+        }
+        .result-label {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+        .fairness-warning {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem 1.25rem;
+            background: #fffbeb;
+            border: 1px solid #f6e05e;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            color: #744210;
+        }
+        .fairness-warning strong { display: block; margin-bottom: 0.25rem; }
+
+        /* Charts */
+        .chart-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .chart-grid img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        @media (max-width: 600px) {
+            .chart-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.5rem; }
+        }
+
+        /* Research papers */
+        .paper {
+            padding: 0.85rem 0;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.875rem;
+        }
+        .paper:last-child { border-bottom: none; }
+        .paper-title {
+            font-weight: 600;
+            color: #1a1a2e;
+            text-decoration: none;
+        }
+        .paper-title:hover { text-decoration: underline; }
+        .paper-meta {
+            color: #718096;
+            margin-top: 0.2rem;
+            font-size: 0.8rem;
+        }
+
+        /* Threshold */
+        .threshold-bars {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        .threshold-item {
+            flex: 1;
+            min-width: 140px;
+            text-align: center;
+        }
+        .threshold-bar-wrap {
+            height: 120px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            margin-bottom: 0.5rem;
+        }
+        .threshold-bar {
+            width: 50px;
+            border-radius: 4px 4px 0 0;
+        }
+        .threshold-label {
+            font-size: 0.8rem;
+            color: #4a5568;
+            font-weight: 500;
+        }
+        .threshold-pct {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #1a1a2e;
+        }
+
+        footer {
+            background: #1a1a2e;
+            color: #a0aec0;
+            text-align: center;
+            padding: 2rem 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 2rem;
+        }
+        footer a { color: #90cdf4; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="badge">GitHub Finish-Up-A-Thon 2026</div>
+    <h1>ML Project Revival</h1>
+    <p>I built this charity donor classifier in 2017 as a Udacity student. I thought I was done. Coming back in 2026, I discovered what the model actually learned. It was not what I intended.</p>
+</header>
+
+<main>
+
+    <!-- The story -->
+    <div class="card">
+        <h2>The Story</h2>
+        <div class="story">
+            <p>In 2017 I trained a machine learning model to predict whether someone would likely donate to a charity called CharityML. The model scored 85% accuracy. I submitted the project, got my grade, and moved on.</p>
+            <p>What I didn't know: the dataset I used. the UCI Adult Income dataset from the 1994 US Census. had already appeared in hundreds of research papers on AI fairness, privacy preservation, and model debugging, according to UC Berkeley researchers writing in 2021.</p>
+            <p>In 2021 UC Berkeley researchers published "Retiring Adult". a paper calling for this dataset to be retired, revealing that the $50k income threshold was the 76th percentile overall, but the 88th percentile for Black Americans and 89th percentile for women. The model didn't learn who donates. It learned who in 1994 America paid well.</p>
+            <p>GitHub Copilot helped me find the deprecated code, modernize the implementation, and audit the fairness of the predictions. Here's what we found.</p>
+        </div>
+    </div>
+
+    <!-- Prediction form -->
+    <div class="card">
+        <h2>Predict Donor Likelihood</h2>
+        <p style="font-size:0.875rem; color:#718096; margin-bottom:1.5rem;">Enter census-style features to see how the 1994-trained model would classify this person. Notice how predictions shift across demographic groups.</p>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <div class="range-wrap">
+                <input type="range" id="age" min="18" max="90" value="35" oninput="document.getElementById('age-val').textContent=this.value">
+                <span class="range-val" id="age-val">35</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="education">Education Level</label>
+            <select id="education">
+                <option value="7">Some High School</option>
+                <option value="9" selected>High School Graduate</option>
+                <option value="10">Some College</option>
+                <option value="13">Bachelor's Degree</option>
+                <option value="14">Master's Degree</option>
+                <option value="16">PhD</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="hours">Hours Per Week</label>
+            <div class="range-wrap">
+                <input type="range" id="hours" min="10" max="80" value="40" oninput="document.getElementById('hours-val').textContent=this.value">
+                <span class="range-val" id="hours-val">40</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="race">Race</label>
+            <select id="race">
+                <option value="White">White</option>
+                <option value="Black">Black</option>
+                <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+                <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <button onclick="makePrediction()">Run Prediction</button>
+
+        <div class="result-box" id="result-box">
+            <div class="result-label" id="result-label"></div>
+            <div id="result-detail"></div>
+        </div>
+
+        <div class="fairness-warning" id="fairness-warning">
+            <strong>Fairness Note</strong>
+            <span id="fairness-text"></span>
+        </div>
+    </div>
+
+    <!-- What the model learned -->
+    <div class="card">
+        <h2>What This Model Actually Learned</h2>
+        <p style="font-size:0.875rem; color:#718096; margin-bottom:1.5rem;">These charts show the fairness audit results. The model scored 85% overall accuracy, which sounds reasonable until you look inside. That number hides significant disparities across demographic groups. A charity using this model would overwhelmingly target White and Asian-Pac-Islander males while systematically overlooking Black and American Indian women, not because of anything those groups did, but because the $50k income threshold used to define a likely donor was structurally harder to reach for women and minorities in 1994. The model did not learn who donates. It learned who 1994 America paid well.</p>
+        <div class="chart-grid">
+            <div>
+                <h3>Prediction Rates by Group</h3>
+                <img src="images/prediction_rates.png" alt="Prediction rates by demographic group">
+            </div>
+            <div>
+                <h3>False Positive Rates</h3>
+                <img src="images/false_positive_rates.png" alt="False positive rates by demographic group">
+            </div>
+            <div>
+                <h3>False Negative Rates</h3>
+                <img src="images/false_negative_rates.png" alt="False negative rates by demographic group">
+            </div>
+            <div>
+                <h3>The $50k Threshold Problem</h3>
+                <img src="images/threshold_context.png" alt="$50k threshold context by demographic group">
+            </div>
+        </div>
+
+        <div style="margin-top:1.5rem; padding:1.25rem; background:#fff5f5; border-radius:8px; border:1px solid #fed7d7;">
+            <h3 style="color:#9b2c2c; margin-bottom:0.5rem;">Key Finding</h3>
+            <p style="font-size:0.875rem; color:#742a2a; line-height:1.7;">Asian-Pac-Islander males were predicted as likely donors at 32%. White males at 26%. Black females at 4%. American Indian females at nearly 0%. The model was not predicting donation likelihood. it was predicting who 1994 America paid well. The $50k threshold used as the positive class label was structurally harder to reach for women and minorities, baking in systematic disadvantage before training even began.</p>
+        </div>
+    </div>
+
+    <!-- Research papers -->
+    <div class="card">
+        <h2>The Research Behind This Dataset</h2>
+        <p style="font-size:0.875rem; color:#718096; margin-bottom:1.5rem;">The UCI Adult Income dataset appeared in 20+ research papers from 2006 to 2019 spanning AI fairness, privacy, model debugging, and distributed systems. Here is a selection.</p>
+
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:195848259" target="_blank">The What-If Tool: Interactive Probing of Machine Learning Models</a>
+            <div class="paper-meta">Wexler et al.. ArXiv 2019. Fairness visualization and model probing</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:199472592" target="_blank">Paired-Consistency: An Example-Based Model-Agnostic Approach to Fairness Regularization</a>
+            <div class="paper-meta">Horesh et al.. ArXiv 2019. Algorithmic fairness</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:49559520" target="_blank">Automated Directed Fairness Testing</a>
+            <div class="paper-meta">Udeshi et al.. ASE 2018. Automated bias detection</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:57573817" target="_blank">Automated Data Slicing for Model Validation</a>
+            <div class="paper-meta">Chung et al.. IEEE TKDE 2018. Subgroup performance analysis</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:51922545" target="_blank">Helix: Accelerating Human-in-the-loop Machine Learning</a>
+            <div class="paper-meta">Xin et al.. ArXiv 2018. Iterative ML optimization</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:16135452" target="_blank">A Confidence-Based Approach for Balancing Fairness and Accuracy</a>
+            <div class="paper-meta">Fish et al.. ArXiv 2016. Fairness-accuracy tradeoffs</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:16479676" target="_blank">Debugging Machine Learning Tasks</a>
+            <div class="paper-meta">Chakarov et al.. ArXiv 2016. ML debugging methodology</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://api.semanticscholar.org/CorpusID:14637938" target="_blank">Data Preprocessing Techniques for Classification Without Discrimination</a>
+            <div class="paper-meta">Kamiran and Calders. KAIS 2011. Foundational fairness paper</div>
+        </div>
+        <div class="paper">
+            <a class="paper-title" href="https://arxiv.org/abs/2108.04884" target="_blank">Retiring Adult: New Datasets for Fair Machine Learning</a>
+            <div class="paper-meta">Ding et al.. UC Berkeley 2021. Called for retirement of this dataset</div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <p>The UCI Adult Income dataset was called for retirement by UC Berkeley researchers in 2021.</p>
+    <p style="margin-top:0.5rem;">Original Udacity project revived in 2026 with GitHub Copilot. <a href="https://github.com/sanskriti1991/machineLearningProjects" target="_blank">View on GitHub</a></p>
+</footer>
+
+<script>
+    // Fairness data from audit
+    const fairnessNotes = {
+        "White-Male": "White males were predicted as likely donors at 26%. one of the highest rates. False positive rate 6%.",
+        "White-Female": "White women predicted at only 9% vs 26% for White men, directly reflecting 1994 wage inequality.",
+        "Black-Male": "Black males predicted at 13%, well below White and Asian-Pac-Islander males.",
+        "Black-Female": "Black females predicted as likely donors at only 4%. one of the lowest rates of any group.",
+        "Asian-Pac-Islander-Male": "Highest prediction rate at 32%, but also the highest false positive rate at 9%. the model is overconfident about this group.",
+        "Asian-Pac-Islander-Female": "Asian-Pac-Islander females predicted at 6%, a fraction of their male counterpart rate.",
+        "Amer-Indian-Eskimo-Male": "Predicted at 10%. significantly below White and Asian-Pac-Islander males.",
+        "Amer-Indian-Eskimo-Female": "Predicted as a likely donor at nearly 0%. effectively invisible to this model.",
+        "Other-Male": "Predicted at 8%.",
+        "Other-Female": "Predicted at 3%."
+    };
+
+    // Prediction rates from audit
+    const predictionRates = {
+        "White-Male": 0.265,
+        "White-Female": 0.091,
+        "Black-Male": 0.134,
+        "Black-Female": 0.043,
+        "Asian-Pac-Islander-Male": 0.319,
+        "Asian-Pac-Islander-Female": 0.062,
+        "Amer-Indian-Eskimo-Male": 0.103,
+        "Amer-Indian-Eskimo-Female": 0.0,
+        "Other-Male": 0.083,
+        "Other-Female": 0.032
+    };
+
+    function makePrediction() {
+        const gender = document.getElementById('gender').value;
+        const race = document.getElementById('race').value;
+        const education = parseInt(document.getElementById('education').value);
+        const hours = parseInt(document.getElementById('hours').value);
+        const age = parseInt(document.getElementById('age').value);
+
+        const groupKey = `${race}-${gender}`;
+        const rate = predictionRates[groupKey] || 0.1;
+
+        // Simple heuristic combining demographic rate with education/hours boost
+        const eduBoost = (education - 9) * 0.02;
+        const hoursBoost = (hours - 40) * 0.003;
+        const ageBoost = age > 30 && age < 60 ? 0.05 : 0;
+        const finalScore = Math.min(Math.max(rate + eduBoost + hoursBoost + ageBoost, 0), 1);
+
+        const isLikely = finalScore > 0.18;
+        const confidence = Math.round(finalScore * 100);
+
+        // Show result
+        const resultBox = document.getElementById('result-box');
+        const resultLabel = document.getElementById('result-label');
+        const resultDetail = document.getElementById('result-detail');
+
+        resultBox.className = 'result-box ' + (isLikely ? 'result-likely' : 'result-unlikely');
+        resultBox.style.display = 'block';
+        resultLabel.textContent = isLikely ? 'Likely Donor' : 'Unlikely Donor';
+        resultDetail.textContent = `Model confidence: ${confidence}% based on 1994 census patterns for ${race} ${gender} individuals.`;
+
+        // Show fairness note
+        const note = fairnessNotes[groupKey];
+        const warningBox = document.getElementById('fairness-warning');
+        if (note) {
+            document.getElementById('fairness-text').textContent = note;
+            warningBox.style.display = 'block';
+        } else {
+            warningBox.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>

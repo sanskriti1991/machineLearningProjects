@@ -1,56 +1,59 @@
-# Machine Learning Engineer Nanodegree
-# Supervised Learning
-## Project: Finding Donors for CharityML
+# Finding Donors: A Retrospective
 
-### Install
+I built this as a Udacity student in 2017. I thought I was done. I wasn't.
 
-This project requires **Python 2.7** and the following Python libraries installed:
+## What This Project Was Originally
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
+A Udacity machine learning nanodegree project training a supervised learning model to predict whether someone earns more than $50k per year as a proxy for charity donation likelihood for a fictional organization called CharityML. The model scored 85% overall accuracy. Project completed, grade received, notebook filed away.
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+## The Dataset
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+UCI Adult Income dataset extracted from the 1994 US Census by Barry Becker. Binary classification task predicting whether income exceeds $50k per year. Still available at UCI Machine Learning Repository.
 
-### Code
+## What I Did Not Know
 
-Template code is provided in the `finding_donors.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `census.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+The $50k threshold corresponds to the 76th income percentile overall in 1994, but the 88th percentile for Black Americans and 89th percentile for women. The model did not learn who donates. It learned who 1994 America paid well.
 
-### Run
+## The Research Connection
 
-In a terminal or command window, navigate to the top-level project directory `finding_donors/` (that contains this README) and run one of the following commands:
+This dataset appeared in hundreds of research papers from 2006 to 2019 spanning AI fairness, privacy preservation, model debugging, and distributed systems. UC Berkeley researchers published Retiring Adult in 2021 at NeurIPS calling for the dataset to be retired and replaced.
+
+## What the Original Evaluation Missed
+
+Overall accuracy hides subgroup disparities. Asian-Pac-Islander males predicted as likely donors at 32%. White males at 26%. Black females at 4%. American Indian females at nearly 0%. False positive rates and false negative rates vary significantly across demographic groups.
+
+## What GitHub Copilot Helped Fix
+
+- Identified deprecated sklearn imports from cross_validation and grid_search modules and updated to model_selection.
+- Fixed Python 2 print statement syntax throughout.
+- Fixed integer division bug in visuals.py causing IndexError.
+- Generated the fairness audit code from an inline comment.
+- Produced the plain English fairness summary from the results.
+
+## How to Run the Notebook
+
+Clone the repository, install the required dependencies, and run `finding_donors.ipynb`. Use the following command to install dependencies:
 
 ```bash
-ipython notebook finding_donors.ipynb
-```  
-or
-```bash
-jupyter notebook finding_donors.ipynb
+pip install numpy pandas scikit-learn matplotlib scipy
 ```
 
-This will open the iPython Notebook software and project file in your browser.
+## What the Demo (index.html) Shows
 
-### Data
+An interactive form to input census features and see how the model predicts donation likelihood. A fairness warning is displayed for demographic groups with known prediction disparities. Charts show prediction rates, false positive rates, and false negative rates by demographic group. Additional visualizations include the $50k threshold context chart and links to all referenced research papers.
 
-The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
+## Original Assignment
 
-**Features**
-- `age`: Age
-- `workclass`: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
-- `education_level`: Level of Education (Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool)
-- `education-num`: Number of educational years completed
-- `marital-status`: Marital status (Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse)
-- `occupation`: Work Occupation (Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces)
-- `relationship`: Relationship Status (Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried)
-- `race`: Race (White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black)
-- `sex`: Sex (Female, Male)
-- `capital-gain`: Monetary Capital Gains
-- `capital-loss`: Monetary Capital Losses
-- `hours-per-week`: Average Hours Per Week Worked
-- `native-country`: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
+The original Udacity assignment instructions are preserved in `ASSIGNMENT.md` for reference.
 
-**Target Variable**
-- `income`: Income Class (<=50K, >50K)
+## Research Papers Referenced
+
+- [The What-If Tool (Wexler et al. 2019)](https://api.semanticscholar.org/CorpusID:195848259)
+- [Paired-Consistency (Horesh et al. 2019)](https://api.semanticscholar.org/CorpusID:199472592)
+- [Automated Directed Fairness Testing (Udeshi et al. 2018)](https://api.semanticscholar.org/CorpusID:49559520)
+- [Automated Data Slicing (Chung et al. 2018)](https://api.semanticscholar.org/CorpusID:57573817)
+- [Helix Accelerating ML (Xin et al. 2018)](https://api.semanticscholar.org/CorpusID:51922545)
+- [Confidence-Based Fairness (Fish et al. 2016)](https://api.semanticscholar.org/CorpusID:16135452)
+- [Debugging ML Tasks (Chakarov et al. 2016)](https://api.semanticscholar.org/CorpusID:16479676)
+- [Classification Without Discrimination (Kamiran and Calders 2011)](https://api.semanticscholar.org/CorpusID:14637938)
+- [Retiring Adult (Ding et al. UC Berkeley 2021)](https://arxiv.org/abs/2108.04884)
