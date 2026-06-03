@@ -1,6 +1,6 @@
 # Finding Donors: A Retrospective
 
-I built this as a Udacity student in 2017. I thought I was done. I wasn't.
+I built this as a Udacity student in 2018. I thought I was done. I wasn't.
 
 ## What This Project Was Originally
 
